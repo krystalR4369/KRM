@@ -104,63 +104,63 @@ background-image: url(../img/background/home-light-bg.jpg);
 
 /* 1.2. about IMG BACKGROUND */
 .about-bg {
-background-image: url(../img/about/angel.jpeg);
+background-image: url(../img/about/KRM-960x1280.jpg);
 }
 
 
 /* 1.3. services IMG BACKGROUND */
 .services-bg-1 {
-background-image: url(../img/services/services-bg-1.jpg);
+background-image: url(../img/services/Image9.jpg);
 }
 
 .services-bg-2 {
-background-image: url(../img/services/services-bg-2.jpg);
+background-image: url(../img/services/Image12.jpg);
 }
 
 .services-bg-3 {
-background-image: url(../img/services/services-bg-3.jpg);
+background-image: url(../img/services/Image11.jpg);
 }
 
 .services-bg-4 {
-background-image: url(../img/services/services-bg-4.jpg);
+background-image: url(../img/services/Servicespic2.jpg);
 }
 
 .services-bg-5 {
-background-image: url(../img/services/services-bg-5.jpg);
+background-image: url(../img/services/ImageServices.jpg);
 }
 
 .services-bg-6 {
-background-image: url(../img/services/services-bg-6.jpg);
+background-image: url(../img/services/Image5.jpeg);
 }
 
 
 /* 1.4. works IMG carousel IMG BACKGROUND */
 .works-page-img-carousel-item-1 {		
-background-image: url(../img/works/Portrait.jpeg);
+background-image: url(../img/works/PhotoServices1.jpg);
 }
 
 .works-page-img-carousel-item-2 {		
-background-image: url(../img/works/works-page-img-carousel-item-2.jpg);
+background-image: url(../img/works/Candid.jpeg);
 }
 
 .works-page-img-carousel-item-3 {	
-background-image: url(../img/works/works-page-img-carousel-item-3.jpg);
+background-image: url(../img/works/PetsLARGE.jpeg);
 }
 
 .works-page-img-carousel-item-4 {		
-background-image: url(../img/works/works-page-img-carousel-item-4.jpg);
+background-image: url(../img/works/EventBG-1-46.jpg);
 }
 
 .works-page-img-carousel-item-5 {		
-background-image: url(../img/works/works-page-img-carousel-item-5.jpg);
+background-image: url(../img/works/weddings.jpg);
 }
 
 .works-page-img-carousel-item-6 {		
-background-image: url(../img/works/works-page-img-carousel-item-6.jpg);
+background-image: url(../img/works/Image10.jpg);
 }
 
 .works-page-img-carousel-item-7 {	
-background-image: url(../img/works/works-page-img-carousel-item-7.jpg);
+background-image: url(../img/works/Image10.jpg);
 }
 
 .works-page-img-carousel-item-8 {		
@@ -186,15 +186,15 @@ background-image: url(../img/works/works-page-img-carousel-item-12.jpg);
 
 /* 1.5. news IMG carousel IMG BACKGROUND */
 .news-page-img-carousel-item-1 {		
-background-image: url(../img/news/news-page-img-carousel-item-1.jpg);
+background-image: url(../img/news/news-page-img-carousel-item-Event.jpg);
 }
 
 .news-page-img-carousel-item-2 {		
-background-image: url(../img/news/news-page-img-carousel-item-2.jpg);
+background-image: url(../img/news/news-page-img-carousel-item-Promo.jpg);
 }
 
 .news-page-img-carousel-item-3 {	
-background-image: url(../img/news/news-page-img-carousel-item-3.jpg);
+background-image: url(../img/news/news-page-img-carousel-VS1.jpg);
 }
 
 .news-page-img-carousel-item-4 {		
@@ -204,15 +204,15 @@ background-image: url(../img/news/news-page-img-carousel-item-4.jpg);
 
 /* 1.5.1. news panel left bg IMG BACKGROUND */
 .panel-left.panel-left-bg-1 {
-background-image: url(../img/news/news-page-img-carousel-item-1.jpg);
+background-image: url(../img/news/news-page-img-carousel-item-Event.jpg);
 }
 
 .panel-left.panel-left-bg-2 {
-background-image: url(../img/news/news-page-img-carousel-item-2.jpg);
+background-image: url(../img/news/news-page-img-carousel-item-Promo.jpg);
 }
 
 .panel-left.panel-left-bg-3 {
-background-image: url(../img/news/news-page-img-carousel-item-3.jpg);
+background-image: url(../img/news/news-page-img-carousel-VS1.jpg);
 }
 
 .panel-left.panel-left-bg-4 {
@@ -222,7 +222,7 @@ background-image: url(../img/news/news-page-img-carousel-item-4.jpg);
 
 /* 1.6. contact IMG BACKGROUND */
 .contact-bg {
-background-image: url(../img/contact/contact-bg.jpg);
+background-image: url(../img/contact/KRM-960x1280.jpg);
 }
 
 
@@ -232,16 +232,21 @@ background-image: url(../img/background/Tree-bg-1.jpg);
 }
 
 .bg-img-2 {
-background-image: url(../img/background/hero-bg-2.jpg);
+background-image: url(../img/background/Image2.jpeg);
 }
 
 .bg-img-3 {
-background-image: url(../img/background/hero-bg-3.jpg);
+background-image: url(../img/background/Image7.jpeg);
 }
 
 .bg-img-4 {
-background-image: url(../img/background/hero-bg-4.jpg);
+background-image: url(../img/background/Image4.jpeg); 
 }
+
+.bg-img-5 {
+background-image: url(../img/background/Image10.jpg);
+}
+
 
 
 /* 2. reset */
@@ -520,7 +525,7 @@ z-index: 200;
 
 .logo-img:before {
 content: "";
-background: url(../img/logo-dark.png) no-repeat;
+background: url(../KRMLogo_Light.png) no-repeat;
 display: block;
 width: 57px;
 height: 34px;
@@ -534,7 +539,7 @@ line-height: 34px;
 
 .logo-img-dark:before {
 content: "";
-background: url(../img/logo-light.png) no-repeat;
+background: url(../KRMLogo_Light.png) no-repeat;
 display: block;
 width: 57px;
 height: 34px;
@@ -547,11 +552,11 @@ line-height: 34px;
 }
 
 .logo-light .logo-img:before {
-background: url(../img/logo-light.png) no-repeat;
+background: url(../KRMLogo_Light.png) no-repeat;
 }
 
 .logo-dark .logo-img-dark:before {
-background: url(../img/logo-dark.png) no-repeat;
+background: url(../KRMLogo_Light.png) no-repeat;
 }
 
 
@@ -2795,10 +2800,13 @@ z-index: 1;
 }
 
 .overlay-inverse-dark-35:before {
+	background: rgba(0,0,0,.1);
+/*
 background: -moz-linear-gradient(bottom, rgba(0, 0, 0, .35) 0%, rgba(0, 0, 0, .1) 100%);
 background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, .35) 0%, rgba(0, 0, 0, .1) 100%);
 background: linear-gradient(to top, rgba(0, 0, 0, .35) 0%, rgba(0, 0, 0, .1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+*/
 }
 
 .overlay-dark-60:before {

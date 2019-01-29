@@ -237,10 +237,10 @@ $(function() {
 	
     // 9. fullPage
     $("#fullpage").fullpage({
-        anchors: ["home", "about", "services", "works", "news", "contact"],
+        anchors: ["home", "about", "services", "photography","videography","contact"],
         navigation: true,
         navigationPosition: "right",
-        navigationTooltips: ["Home", "About", "Services", "Works", "News", "Contact"],
+        navigationTooltips: ["Home", "About", "Services", "Photography", "Videography", "Contact"],
         responsiveWidth: 900,
         autoScrolling: true,
         scrollBar: false,
@@ -272,30 +272,30 @@ $(function() {
 	
     // 12. forms
     // 12.1. contact form
-    $("form#form").on("submit", function() {
-        $("form#form .error").remove();
-        var s = !1;
-        if ($(".requiredField").each(function() {
-                if ("" === jQuery.trim($(this).val())) $(this).prev("label").text(), $(this).parent().append('<span class="error">This field is required</span>'), $(this).addClass(
-                    "inputError"), s = !0;
-                else if ($(this).hasClass("email")) {
-                    var r = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-                    r.test(jQuery.trim($(this).val())) || ($(this).prev("label").text(), $(this).parent().append('<span class="error">Invalid email address</span>'), $(this).addClass(
-                        "inputError"), s = !0);
-                }
-            }), !s) {
-            $("form#form input.submit").fadeOut("normal", function() {
-                $(this).parent().append("");
-            });
-            var r = $(this).serialize();
-            $.post($(this).attr("action"), r, function() {
-                $("form#form").slideUp("fast", function() {
-                    $(this).before('<div class="success">Your email was sent successfully.</div>');
-                });
-            });
-        }
-        return !1;
-    });
+//    $("form#form").on("submit", function() {
+//        $("form#form .error").remove();
+//        var s = !1;
+//        if ($(".requiredField").each(function() {
+//                if ("" === jQuery.trim($(this).val())) $(this).prev("label").text(), $(this).parent().append('<span class="error">This field is required</span>'), $(this).addClass(
+//                    "inputError"), s = !0;
+//                else if ($(this).hasClass("email")) {
+//                    var r = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+//                    r.test(jQuery.trim($(this).val())) || ($(this).prev("label").text(), $(this).parent().append('<span class="error">Invalid email address</span>'), $(this).addClass(
+//                        "inputError"), s = !0);
+//                }
+//            }), !s) {
+//            $("form#form input.submit").fadeOut("normal", function() {
+//                $(this).parent().append("");
+//            });
+//            var r = $(this).serialize();
+//            $.post($(this).attr("action"), r, function() {
+//                $("form#form").slideUp("fast", function() {
+//                    $(this).before('<div class="success">Your email was sent successfully.</div>');
+//                });
+//            });
+//        }
+//        return !1;
+//    });
 	
     // 13. contact modal
     $(".contact-modal-launcher, .contact-modal-closer").on("click", function() {
